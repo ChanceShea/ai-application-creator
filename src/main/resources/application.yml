@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  application:
+    name: ai-application-creator
+
+springdoc:
+  group-configs:
+    - group: 'deafult'
+      packages-to-scan: com.shea.ioc.aiapplicationcreator.controller
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+
