@@ -1,4 +1,4 @@
-package com.shea.ioc.aiapplicationcreator.config;
+package com.shea.aiapplicationcreator.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

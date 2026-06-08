@@ -1,4 +1,4 @@
-package com.shea.ioc.aiapplicationcreator.common;
+package com.shea.aiapplicationcreator.common;
 
 import lombok.Data;
 

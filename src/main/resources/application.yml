@@ -6,11 +6,16 @@ server:
 spring:
   application:
     name: ai-application-creator
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.100.104:3306/ai_application_creator?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&allowMultiQueries=true&allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
 
 springdoc:
   group-configs:
     - group: 'deafult'
-      packages-to-scan: com.shea.ioc.aiapplicationcreator.controller
+      packages-to-scan: com.shea.aiapplicationcreator.controller
 
 knife4j:
   enable: true

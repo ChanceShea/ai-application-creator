@@ -1,6 +1,6 @@
-package com.shea.ioc.aiapplicationcreator.common;
+package com.shea.aiapplicationcreator.common;
 
-import com.shea.ioc.aiapplicationcreator.exception.ErrorCode;
+import com.shea.aiapplicationcreator.exception.ErrorCode;
 import lombok.Data;
 
 import java.io.Serializable;

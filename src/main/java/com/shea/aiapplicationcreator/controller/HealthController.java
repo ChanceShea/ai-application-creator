@@ -1,6 +1,6 @@
-package com.shea.ioc.aiapplicationcreator.controller;
+package com.shea.aiapplicationcreator.controller;
 
-import com.shea.ioc.aiapplicationcreator.common.Result;
+import com.shea.aiapplicationcreator.common.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

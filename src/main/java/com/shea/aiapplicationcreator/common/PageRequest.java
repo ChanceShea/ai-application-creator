@@ -1,4 +1,4 @@
-package com.shea.ioc.aiapplicationcreator.common;
+package com.shea.aiapplicationcreator.common;
 
 import lombok.Data;
 
@@ -25,5 +25,5 @@ public class PageRequest {
     /**
      * 排序顺序
      */
-    private String sortOrder = "asc";
+    private String sortOrder = "ascend";
 }

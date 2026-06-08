@@ -1,4 +1,4 @@
-package com.shea.ioc.aiapplicationcreator.exception;
+package com.shea.aiapplicationcreator.exception;
 
 import lombok.Getter;
 
